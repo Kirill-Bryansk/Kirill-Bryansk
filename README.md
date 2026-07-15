@@ -15,13 +15,17 @@
 | Область | Технологии |
 |---------|------------|
 | **Язык** | Java 21 |
-| **Фреймворки** | Spring Boot, Spring Data JPA, Hibernate |
-| **Базы данных** | PostgreSQL, SQL |
-| **API и безопасность** | REST API, JWT, JSON/Jackson |
-| **Тестирование** | Mockito, интеграционное тестирование |
+| **Фреймворки** | Spring Boot 3.x, Spring Data JPA, Hibernate, Spring Cloud (Gateway, Eureka, Config, OpenFeign) |
+| **Микросервисы** | Spring Cloud Gateway, Eureka Discovery, Config Server, OpenFeign, Resilience4j, Spring Retry |
+| **Базы данных** | PostgreSQL, SQL, H2, QueryDSL |
+| **API и безопасность** | REST API, JWT, JSON/Jackson, gRPC, Protocol Buffers |
+| **Брокеры сообщений** | Apache Kafka, Avro-сериализация |
+| **Тестирование** | JUnit, Mockito, интеграционное тестирование, JaCoCo |
 | **Сборка и DevOps** | Maven, Docker, Docker Compose, Bash |
-| **Инструменты** | IntelliJ IDEA, Lombok, Git, GitHub |
-| **Дополнительно** | Telegram Bot API |
+| **Кодогенерация** | Lombok, MapStruct, QueryDSL, Avro Maven Plugin, Protobuf Maven Plugin |
+| **Инструменты** | IntelliJ IDEA, Git, GitHub |
+| **Качество кода** | Checkstyle, SpotBugs |
+| **Дополнительно** | Telegram Bot API, Liquibase |
 
 ---
 
@@ -32,7 +36,7 @@
 
 Бот для ведения личного бюджета с категоризацией транзакций и отчётами.
 
-**Стек:** Java 21, Spring Boot, Telegram Bot API, PostgreSQL, Hibernate, Docker, Maven
+**Стек:** Java 21, Spring Boot 3.1.5, Spring Data JPA, PostgreSQL, Telegram Bot API, Docker, Maven, Lombok
 
 ---
 
@@ -48,9 +52,9 @@
 ### 3. Умный дом (Smart Home Tech)
 **Репозиторий:** [github.com/Kirill-Bryansk/plus-smart-home-tech](https://github.com/Kirill-Bryansk/plus-smart-home-tech)
 
-Проект по управлению умным домом.
+Микросервисный проект для управления умным домом. Включает сбор телеметрии, обработку через Kafka, коммерческие сервисы (корзина, заказы, оплата, доставка, склад) и gRPC-взаимодействие.
 
-**Стек:** Java, Spring Boot
+**Стек:** Java 21, Spring Boot 3.3.2, Spring Cloud 2023.0.3, PostgreSQL, Kafka, Avro, gRPC, Protocol Buffers, Docker, Maven, Lombok, MapStruct, QueryDSL, Resilience4j, Checkstyle, SpotBugs, JaCoCo
 
 ---
 
