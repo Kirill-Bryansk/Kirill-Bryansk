@@ -36,7 +36,7 @@
 
 Бот для ведения личного бюджета с категоризацией транзакций и отчётами.
 
-**Стек:** Java 21, Spring Boot 3.1.5, Spring Data JPA, PostgreSQL, Telegram Bot API, Docker, Maven, Lombok
+**Стек:** Java 21, Spring Boot, Spring Data JPA, PostgreSQL, Telegram Bot API, Docker, Maven, Lombok
 
 ---
 
@@ -54,7 +54,7 @@
 
 Микросервисный проект для управления умным домом. Включает сбор телеметрии, обработку через Kafka, коммерческие сервисы (корзина, заказы, оплата, доставка, склад) и gRPC-взаимодействие.
 
-**Стек:** Java 21, Spring Boot 3.3.2, Spring Cloud 2023.0.3, PostgreSQL, Kafka, Avro, gRPC, Protocol Buffers, Docker, Maven, Lombok, MapStruct, QueryDSL, Resilience4j, Checkstyle, SpotBugs, JaCoCo
+**Стек:** Java 21, Spring Boot, Spring Cloud, PostgreSQL, Kafka, Avro, gRPC, Protocol Buffers, Docker, Maven, Lombok, MapStruct, QueryDSL, Resilience4j, Checkstyle, SpotBugs, JaCoCo
 
 ---
 
