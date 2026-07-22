@@ -1,7 +1,9 @@
 
 ## Обо мне
 
-Прошёл обучение в **Яндекс.Практикуме** по программе «Java-разработчик».
+## Обо мне
+
+Java-разработчик с 15-летним инженерным бэкграундом. Прошёл обучение в **Яндекс.Практикуме** по программе «Java-разработчик. Расширенный». Умею работать со сложными техническими системами, документацией и быстро осваиваю новые технологии. Разрабатываю бэкенд на Java + Spring, а также full-stack проекты с React.
 
 **Что я ищу:** Стажировку, проектную работу или частичную занятость.
 
@@ -14,58 +16,95 @@
 
 ## Технологический стек
 
-| Область | Технологии |
-|---------|------------|
-| **Язык** | Java 21 |
-| **Фреймворки** | Spring Boot 3.x, Spring Data JPA, Hibernate, Spring Cloud (Gateway, Eureka, Config, OpenFeign) |
-| **Микросервисы** | Spring Cloud Gateway, Eureka Discovery, Config Server, OpenFeign, Resilience4j, Spring Retry |
-| **Базы данных** | PostgreSQL, SQL, H2, QueryDSL |
-| **API и безопасность** | REST API, JWT, JSON/Jackson, gRPC, Protocol Buffers |
-| **Брокеры сообщений** | Apache Kafka, Avro-сериализация |
-| **Тестирование** | JUnit, Mockito, интеграционное тестирование, JaCoCo |
-| **Сборка и DevOps** | Maven, Docker, Docker Compose, Bash |
-| **Кодогенерация** | Lombok, MapStruct, QueryDSL, Avro Maven Plugin, Protobuf Maven Plugin |
-| **Инструменты** | IntelliJ IDEA, Git, GitHub |
-| **Качество кода** | Checkstyle, SpotBugs |
-| **Дополнительно** | Telegram Bot API, Liquibase |
+### Бэкенд
+| Технология | Описание |
+|------------|----------|
+| **Java 21** | Основной язык |
+| **Spring Boot** | Фреймворк для создания приложений |
+| **Spring Data JPA** | Работа с базами данных |
+| **Hibernate** | ORM-фреймворк для работы с БД |
+| **Spring Security** | Аутентификация и авторизация |
+| **JWT** | Токены для stateless-аутентификации |
+| **PostgreSQL** | Реляционная база данных |
+| **Lombok** | Уменьшение шаблонного кода |
+| **Hibernate Validator** | Валидация данных |
+| **SLF4J + Logback** | Логирование |
+
+### Фронтенд
+| Технология | Описание |
+|------------|----------|
+| **React** | UI-библиотека |
+| **JavaScript** | Язык программирования |
+| **Vite** | Сборщик и dev-сервер |
+| **React Router DOM** | Клиентская маршрутизация |
+| **Nginx** | Веб-сервер для раздачи статики |
+| **CSS** | Кастомные стили |
+
+### Тестирование
+| Технология | Описание |
+|------------|----------|
+| **JUnit 5** | Фреймворк для модульного тестирования |
+| **Mockito** | Создание мок-объектов для изолированного тестирования |
+| **Spring Boot Test** | Интеграционное тестирование с контекстом Spring |
+
+### Микросервисы
+| Технология | Описание |
+|------------|----------|
+| **Spring Cloud Gateway** | API-шлюз для маршрутизации запросов |
+| **Eureka Discovery** | Сервис регистрации и обнаружения |
+| **Config Server** | Централизованное управление конфигурациями |
+| **OpenFeign** | Декларативный HTTP-клиент |
+| **Resilience4j** | Защита от сбоев (retry, circuit breaker) |
+| **Spring Retry** | Повторные попытки при сбоях |
+| **Apache Kafka** | Брокер сообщений для асинхронного обмена |
+| **Avro** | Сериализация данных с контрактом |
+| **gRPC + Protocol Buffers** | Высокопроизводительный RPC |
+
+### Инфраструктура
+| Технология | Описание |
+|------------|----------|
+| **Docker** | Контейнеризация |
+| **Docker Compose** | Оркестрация сервисов |
+| **Maven** | Сборка бэкенда |
+| **Git** | Система контроля версий |
 
 ---
 
 ## Мои проекты
 
-### 1. Telegram-бот для учёта расходов
+### 1. Интернет-магазин фреонов (freon-market)
+**Репозиторий:** [github.com/Kirill-Bryansk/freon-market](https://github.com/Kirill-Bryansk/freon-market)
+
+Полноценный интернет-магазин для продажи хладагентов и сопутствующих товаров. Реализована полная связка «бэкенд + фронтенд» с разграничением ролей и админ-панелью. Включает каталог товаров, систему ценовых уровней (оптовые скидки), JWT-аутентификацию и развёртывание через Docker Compose.
+
+**Стек:** Java 21, Spring Boot, Spring Data JPA, Spring Security, JWT, PostgreSQL, REST API, React, JavaScript, Vite, Nginx, Docker, Maven, Lombok
+
+---
+
+### 2. Умный дом (Smart Home Tech)
+**Репозиторий:** [github.com/Kirill-Bryansk/plus-smart-home-tech](https://github.com/Kirill-Bryansk/plus-smart-home-tech)
+
+Микросервисный проект для управления умным домом. Включает сбор телеметрии, обработку через Kafka, коммерческие сервисы (корзина, заказы, оплата, доставка, склад) и gRPC-взаимодействие между сервисами.
+
+**Стек:** Java 21, Spring Boot, Spring Cloud (Gateway, Eureka, Config, OpenFeign), Resilience4j, PostgreSQL, Kafka, Avro, gRPC, Protocol Buffers, Docker, Maven, Lombok, MapStruct, QueryDSL, Checkstyle, SpotBugs, JaCoCo
+
+---
+
+### 3. Telegram-бот для учёта расходов
 **Репозиторий:** [github.com/Kirill-Bryansk/bot-economics](https://github.com/Kirill-Bryansk/bot-economics)
 
-Бот для ведения личного бюджета с категоризацией транзакций и отчётами.
+Бот для ведения личного бюджета с категоризацией транзакций, формированием отчётов по доходам/расходам и развёртыванием через Docker Compose.
 
 **Стек:** Java 21, Spring Boot, Spring Data JPA, PostgreSQL, Telegram Bot API, Docker, Maven, Lombok
 
 ---
 
-### 2. Выпускной проект (Graduation)
+### 4. Выпускной проект (Graduation)
 **Репозиторий:** [github.com/Kirill-Bryansk/java-plus-graduation](https://github.com/Kirill-Bryansk/java-plus-graduation)
 
-Итоговый проект по курсу Яндекс.Практикума.
+Итоговый проект по курсу Яндекс.Практикума. REST API с авторизацией и работой с базой данных.
 
 **Стек:** Java 21, Spring Boot, Spring Data JPA, PostgreSQL, REST API, Docker
-
----
-
-### 3. Умный дом (Smart Home Tech)
-**Репозиторий:** [github.com/Kirill-Bryansk/plus-smart-home-tech](https://github.com/Kirill-Bryansk/plus-smart-home-tech)
-
-Микросервисный проект для управления умным домом. Включает сбор телеметрии, обработку через Kafka, коммерческие сервисы (корзина, заказы, оплата, доставка, склад) и gRPC-взаимодействие.
-
-**Стек:** Java 21, Spring Boot, Spring Cloud, PostgreSQL, Kafka, Avro, gRPC, Protocol Buffers, Docker, Maven, Lombok, MapStruct, QueryDSL, Resilience4j, Checkstyle, SpotBugs, JaCoCo
-
----
-
-### 4. Интернет магазин (freon-market)
-**Репозиторий:** [https://github.com/Kirill-Bryansk/freon-market](https://github.com/Kirill-Bryansk/plus-smart-home-tech)
-
-Интернет-магазин фреонов — full-stack проект с бэкендом на Java/Spring Boot и фронтендом на React. Реализована JWT-аутентификация, каталог товаров, админ-панель, ценовые уровни. Развёртывание через Docker Compose.
-
-**Стек:** Стек: Java 21, Spring Boot, Spring Data JPA, Spring Security, JWT, PostgreSQL, REST API, React, JavaScript, Vite, Nginx, Docker, Maven, Lombok
 
 ---
 
