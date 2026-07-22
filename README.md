@@ -62,6 +62,9 @@
 
 ### 4. Интернет магазин (freon-market)
 **Репозиторий:** [https://github.com/Kirill-Bryansk/freon-market](https://github.com/Kirill-Bryansk/plus-smart-home-tech)
+
+Интернет-магазин фреонов — full-stack проект с бэкендом на Java/Spring Boot и фронтендом на React. Реализована JWT-аутентификация, каталог товаров, админ-панель, ценовые уровни. Развёртывание через Docker Compose.
+
 **Стек:** Стек: Java 21, Spring Boot, Spring Data JPA, Spring Security, JWT, PostgreSQL, REST API, React, JavaScript, Vite, Nginx, Docker, Maven, Lombok
 
 ---
