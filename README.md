@@ -9,8 +9,8 @@
 
 ## 🎓 Образование
 
-- **Яндекс.Практикум** — Java-разработчик. Расширенный (855 часов)
-    - 📜 **[Диплом о прохождении курса](https://raw.githubusercontent.com/Kirill-Bryansk/Kirill-Bryansk/main/Диплом.pdf)**
+- **Яндекс.Практикум** — Java-разработчик. Программист.
+    - 📜 **[Диплом](https://raw.githubusercontent.com/Kirill-Bryansk/Kirill-Bryansk/main/Диплом.pdf)**
 
 ## Технологический стек
 
